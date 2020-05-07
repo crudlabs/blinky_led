@@ -1,9 +1,9 @@
-#include "LEDPattern1.h"
+#include "LEDPattern2.h"
 
-LEDPattern1::LEDPattern1() {
-  
+LEDPattern2::LEDPattern1() {
+  pinMode(5, OUTPUT);
 }
 
-void LEDPattern1::process() {
+void LEDPattern2::process() {
   
 }
