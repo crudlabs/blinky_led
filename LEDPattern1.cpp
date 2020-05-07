@@ -5,5 +5,9 @@ LEDPattern1::LEDPattern1() {
 }
 
 void LEDPattern1::process() {
-  
+  digitalWrite(6, HIGH);
+  delay(100);
+  digitalWrite(6, LOW);
+  delay(100);
+
 }
