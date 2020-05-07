@@ -1,12 +1,12 @@
-#ifndef LEDPattern1_h
-#define LEDPattern1_h
+#ifndef LEDPattern2_h
+#define LEDPattern2_h
 
 #include "Arduino.h"
 
-class LEDPattern1
+class LEDPattern2
 {
   public:
-    LEDPattern1();
+    LEDPattern2();
     void process();
 
   private:
